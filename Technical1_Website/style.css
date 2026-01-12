@@ -38,13 +38,16 @@ main {
     flex: 1;
 }
 
-.product{
+.product {
+    padding: 10px;
     border: 1px solid #ccc;
-    margin-bottom: 10px;
-    width: 3px;   
-    height: 3px;   
-    display: block;
+    margin-bottom: 15px;
 }
+
+.product img {
+    margin: 0 auto;
+}
+
 
 footer {
     background-color: #5DD3B6;
