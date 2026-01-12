@@ -1,0 +1,3 @@
+mouse.jpg
+keyboard.jpg
+headset.jpg
