@@ -42,6 +42,13 @@ main {
     padding: 10px;
     border: 1px solid #ccc;
     margin-bottom: 15px;
+    
+}
+
+.product img {
+    width: 50%;
+    height: auto;
+    margin-bottom: 5px;
 }
 
 .product img {
