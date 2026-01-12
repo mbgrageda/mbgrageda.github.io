@@ -40,10 +40,9 @@ main {
 
 .product{
     border: 1px solid #ccc;
-    padding: 10px;
     margin-bottom: 10px;
-    width: 10px;   
-    height: 10px;   
+    width: 3px;   
+    height: 3px;   
     display: block;
 }
 
