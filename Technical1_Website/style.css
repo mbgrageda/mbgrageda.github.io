@@ -47,7 +47,7 @@ main {
 
 .product img {
     width: 50%;
-    height: 10px;
+    height: auto;
     margin-bottom: 5px;
 }
 
