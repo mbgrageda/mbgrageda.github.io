@@ -21,15 +21,16 @@
     <main>
         <h2>Message Form</h2>
 
-        <form>
-            <label>Name:</label>
-            <input type="text">
+       <form onsubmit="submitForm()">
+    <label>Name:</label>
+    <input type="text" required>
 
-            <label>Message:</label>
-            <textarea rows="4"></textarea>
+    <label>Message:</label>
+    <textarea rows="4" required></textarea>
 
-            <button type="submit">Submit</button>
-        </form>
+    <button type="submit">Submit</button>
+</form>
+
     </main>
 
 </div>
@@ -37,6 +38,8 @@
 <footer>
     <p>© 2026 Tindahan Ko</p>
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>

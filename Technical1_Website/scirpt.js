@@ -1,3 +1,9 @@
-function submitForm(){
-    alert("Thank You for your message!");
+
+function productClicked(productName) {
+    alert("You clicked on " + productName);
+}
+
+
+function submitForm() {
+    alert("Thank you for your message!");
 }
