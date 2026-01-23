@@ -12,34 +12,28 @@
 
 <div class="container">
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact Us</a>
-    </nav>
+<nav>
+    <a href="index.html">Home</a>
+</nav>
 
-    <main>
-        <h2>Message Form</h2>
+<main>
+    <form onsubmit="submitForm(); return false;">
+        <label>Name</label>
+        <input type="text" required>
 
-       <form onsubmit="submitForm()">
-    <label>Name:</label>
-    <input type="text" required>
+        <label>Message</label>
+        <textarea rows="4" required></textarea>
 
-    <label>Message:</label>
-    <textarea rows="4" required></textarea>
-
-    <button type="submit">Submit</button>
-</form>
-
-    </main>
+        <button type="submit">Send Message</button>
+    </form>
+</main>
 
 </div>
 
 <footer>
-  <p>© 2026 Tindahan Ko | Email: support.tindahanko@gmail.com</p>
+    <p>© 2026 Tindahan Ko</p>
 </footer>
 
 <script src="script.js"></script>
-
 </body>
 </html>

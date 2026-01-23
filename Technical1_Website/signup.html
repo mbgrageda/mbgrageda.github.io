@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tindahan Ko - Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Sign Up</h1>
+</header>
+
+<div class="container">
+
+<nav>
+    <a href="login.html">Back to Login</a>
+</nav>
+
+<main>
+    <form onsubmit="signupUser(); return false;">
+        <label>First Name</label>
+        <input type="text" required>
+
+        <label>Last Name</label>
+        <input type="text" required>
+
+        <label>Email Address</label>
+        <input type="email" required>
+
+        <label>Password</label>
+        <input type="password" required>
+
+        <label>Confirm Password</label>
+        <input type="password" required>
+
+        <label>Mobile Number</label>
+        <input type="tel" required>
+
+        <label>Home Address</label>
+        <textarea rows="3" required></textarea>
+
+        <button type="submit">Create Account</button>
+    </form>
+
+    <p>
+        Already have an account?
+        <a href="login.html">Login</a>
+    </p>
+</main>
+
+</div>
+
+<footer>
+    <p>© 2026 Tindahan Ko</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
