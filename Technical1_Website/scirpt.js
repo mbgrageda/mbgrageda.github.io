@@ -10,8 +10,3 @@ function loginUser() {
     alert("Login successful (placeholder)");
     window.location.href = "profile.html";
 }
-
-function signupUser() {
-    alert("Account created successfully (placeholder)");
-    window.location.href = "login.html";
-}
