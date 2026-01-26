@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tindahan Co - Product Catalog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Product Catalog</h1>
+</header>
+
+<div class="container">
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="catalog.html">Products</a>
+    <a href="cart.html">Cart</a>
+</nav>
+
+<main>
+    <div class="product">
+        <img src="images/mouse.jpg">
+        <p>Wireless Mouse</p>
+        <p>₱599</p>
+        <button onclick="addToCart('Wireless Mouse', 599)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="images/keyboard.jpg">
+        <p>Keyboard</p>
+        <p>₱1299</p>
+        <button onclick="addToCart('Keyboard', 1299)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="images/headset.jpg">
+        <p>Headset</p>
+        <p>₱999</p>
+        <button onclick="addToCart('Headset', 999)">Add to Cart</button>
+    </div>
+</main>
+
+</div>
+
+<footer>
+    <p>© 2026 Tindahan Co</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
