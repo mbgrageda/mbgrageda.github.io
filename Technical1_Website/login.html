@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Tindahan Co - Contact</title>
+    <title>Tindahan Co - Login</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-    <h1>Contact Us</h1>
+    <h1>Login</h1>
 </header>
 
 <div class="container">
@@ -20,15 +20,20 @@
 </nav>
 
 <main>
-    <form onsubmit="submitForm(); return false;">
-        <label>Name</label>
-        <input type="text" required>
+    <form onsubmit="loginUser(); return false;">
+        <label>Email Address</label>
+        <input type="email" required>
 
-        <label>Message</label>
-        <textarea rows="4" required></textarea>
+        <label>Password</label>
+        <input type="password" required>
 
-        <button type="submit">Send Message</button>
+        <button type="submit">Login</button>
     </form>
+
+    <p>
+        Don’t have an account?
+        <a href="signup.html">Sign up here</a>
+    </p>
 </main>
 
 </div>
