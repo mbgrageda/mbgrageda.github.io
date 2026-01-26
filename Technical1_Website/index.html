@@ -15,6 +15,8 @@
 
 <nav>
     <a href="index.html">Home</a>
+    <a href="catalog.html">Products</a>
+    <a href="cart.html">Cart</a>
     <a href="about.html">About</a>
     <a href="contact.html">Contact Us</a>
     <a href="login.html">Login</a>
@@ -23,22 +25,25 @@
 <main>
     <h2>Featured Products</h2>
 
-    <div class="product" onclick="productClicked('Wireless Mouse')">
+    <div class="product">
         <img src="images/mouse.jpg" alt="Wireless Mouse">
         <p>Wireless Mouse</p>
         <p>₱599</p>
+        <button onclick="addToCart('Wireless Mouse', 599)">Add to Cart</button>
     </div>
 
-    <div class="product" onclick="productClicked('Keyboard')">
+    <div class="product">
         <img src="images/keyboard.jpg" alt="Keyboard">
         <p>Keyboard</p>
         <p>₱1,299</p>
+        <button onclick="addToCart('Keyboard', 1299)">Add to Cart</button>
     </div>
 
-    <div class="product" onclick="productClicked('Headset')">
+    <div class="product">
         <img src="images/headset.jpg" alt="Headset">
         <p>Headset</p>
         <p>₱999</p>
+        <button onclick="addToCart('Headset', 999)">Add to Cart</button>
     </div>
 </main>
 

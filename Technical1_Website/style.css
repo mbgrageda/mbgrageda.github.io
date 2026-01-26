@@ -32,6 +32,10 @@ nav a {
     font-size: 18px;
 }
 
+nav a:hover {
+    text-decoration: underline;
+}
+
 main {
     flex: 1;
     padding: 20px;
@@ -41,7 +45,6 @@ main {
     border: 1px solid #ccc;
     padding: 10px;
     margin-bottom: 15px;
-    cursor: pointer;
     max-width: 300px;
 }
 
@@ -50,15 +53,28 @@ main {
     height: auto;
 }
 
+button {
+    background-color: #215E61;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+button:hover {
+    background-color: #17494b;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+}
+
 footer {
     background-color: #5DD3B6;
     color: white;
     text-align: center;
     padding: 10px;
-}
-
-input, textarea, button {
-    width: 100%;
-    margin-top: 8px;
-    padding: 8px;
 }
