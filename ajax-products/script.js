@@ -28,7 +28,7 @@ $(document).ready(function () {
 
                         <h2>${product.title}</h2>
 
-                        <img src="${product.thumbnail}" width="150" alt="thumbnail">
+                        <img src="${product.thumbnail}" width="150">
 
                         <p><strong>ID:</strong> ${product.id}</p>
                         <p><strong>Description:</strong> ${product.description}</p>
@@ -47,11 +47,6 @@ $(document).ready(function () {
                             <li>Height: ${product.dimensions.height}</li>
                             <li>Depth: ${product.dimensions.depth}</li>
                         </ul>
-
-                        <details>
-                            <summary><strong>Show All JSON Data</strong></summary>
-                            <pre>${JSON.stringify(product, null, 2)}</pre>
-                        </details>
 
                     </div>
                     `;
