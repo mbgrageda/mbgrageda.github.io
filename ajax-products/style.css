@@ -1,0 +1,23 @@
+body {
+    font-family: Arial;
+    margin: 40px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#content {
+    margin-top: 20px;
+}
+
+.product {
+    background: #f4f4f4;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+img {
+    margin: 10px 0;
+}
